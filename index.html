@@ -28,11 +28,73 @@
 <body>
 
   <!-- Header  -->  
-  <!-- Menu  --> 
+  <header>
+    <h1>Html İskelet Yapısı</h1> 
+  </header>
+
+   <!-- Menu  --> 
+   <nav>
+    <ul>
+      <li><a href="#">Anasayfa</a></li>
+      <li><a href="#">Hakkımızda</a></li>
+      <li><a href="#">Kalite</a></li>
+      <li><a href="#">İletişim</a></li>
+    </ul>
+  </nav>
+  
  
   <!-- Content  --> 
+  <main>
+    <!-- Contrys  -->
+    <section>
+      <h1>Ünlü Ünkeler</h1>
+
+        <article>
+          <h1>Türkiye</h1> 
+          <p>
+            <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </strong> 
+            <i>Obcaecati, sapiente libero. Eaque, odio. Unde illum repellat, id iusto</i> 
+            <u>soluta labore, fugiat maxime accusamus placeat hic perspiciatis reiciendis,</u>
+          </p> 
+        </article>
+
+        <article>
+          <h1>İrlanda</h1> 
+          <p>
+            <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </strong> 
+            <i>Obcaecati, sapiente libero. Eaque, odio. Unde illum repellat, id iusto</i> 
+            <u>soluta labore, fugiat maxime accusamus placeat hic perspiciatis reiciendis,</u>
+          </p> 
+        </article>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h1>İletişim</h1>
+
+      <form action="">
+        <label for="user_name">Kullanıcı Adı</label>
+        <input type="text" id="user_name" placeholder="Zorunlu Alan" required>
+
+        <label for="user_mail">Mail</label>
+        <input type="email" id="user_mail" placeholder="Zorunlu Alan" required>
+
+        <label for="user_subject">Konu</label>
+        <input type="text" id="user_subject" placeholder="Zorunlu Alan" required>
+
+        <label for="user_checkbox">Kontrol</label>
+        <input type="checkbox" id="user_checkbox" required>
+
+        <button type="reset">Temizle</button>
+        <button type="submit">Gönder</button>
+      </form>
+    </section>
+  </main>
 
   <!-- Footer  -->  
+  <footer>
+    <p> &copy; 2022 Tüm hakları saklıdır.</p>
+  </footer>
 
 </body>
 </html>
